@@ -1,0 +1,20 @@
+/* Hero Section */
+        .hero-products {
+            background-color: var(--light-gray);
+            padding: 4rem 2rem;
+            text-align: center;
+            margin-top: 91px;
+        }
+
+        .hero-products h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-red);
+        }
+
+        .hero-products p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            color: var(--medium-gray);
+        }

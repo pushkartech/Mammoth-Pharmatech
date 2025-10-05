@@ -1,0 +1,84 @@
+.product-page-section {
+            /* padding: 0 2rem; */
+            max-width: 1200px;
+            margin: 0 auto;
+}
+
+.product-page-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-red);
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.product-page-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--primary-red);
+}
+
+.product-page-section p {
+    margin-bottom: 2rem;
+    color: var(--medium-gray);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  /* padding: 1rem 1rem; */
+}
+
+/* Toggle btn */
+.section-actions {
+  flex: 0 0 auto;
+}
+.toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  border: 1px solid var(--border);
+  background: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--primary-red);
+  transition: transform .15s ease, box-shadow .15s ease;
+  outline: none;
+}
+.toggle-btn:focus {
+  box-shadow: 0 0 0 4px rgba(196,18,47,0.06);
+}
+.toggle-btn.open {
+  background: #fff6f7;
+  border-color: rgba(196,18,47,0.12);
+  transform: translateY(-1px);
+}
+.toggle-btn .chev {
+  display: inline-block;
+  transition: transform .2s ease;
+  font-size: 1.1rem;
+}
+.toggle-btn.open .chev {
+  transform: rotate(180deg);
+}
+
+/* Collapsible panel */
+.section-panel {
+  border-top: 1px solid var(--border);
+  padding: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(.2,.9,.2,1), padding 0.2s ease;
+}
+.section-panel.expanded {
+  max-height: 2000px; /* large enough for content */
+  padding: 1rem;
+}
