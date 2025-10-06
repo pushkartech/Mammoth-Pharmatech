@@ -503,7 +503,7 @@ function ProductsPage(){
                     title: 'Laminar Air Flow (LAF) Unit',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/LAF.jpg',
                         keyFeatures: [
                             'Provides unidirectional HEPA-filtered air for localized sterile workspaces.',
                             'Available in vertical and horizontal configurations.',
@@ -514,11 +514,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/BSC.jpg',
                     title: 'Biosafety Cabinet (BSC)',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/BSC.jpg',
                         keyFeatures: [
                             'Protects personnel, environment, and product when handling biohazards.',
                             'Offered in Class II A2, B2, and Class III for varying risk levels.',
@@ -529,11 +529,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/pass-box.jpg',
                     title: 'Pass Box / Dynamic Pass Box',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/pass-box.jpg',
                         keyFeatures: [
                             'Facilitates material transfer between different cleanroom grades.',
                             'Interlocked doors prevent cross-contamination.',
@@ -544,11 +544,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/air-shower.jpg',
                     title: 'Air Shower',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/air-shower.jpg',
                         keyFeatures: [
                             'Removes surface contaminants from personnel entering the cleanroom.',
                             'High-velocity jets of filtered air dislodge particulates.',
@@ -559,11 +559,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/garment-storage-cabinet.jpg',
                     title: 'Garment Storage Cabinet',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/garment-storage-cabinet.jpg',
                         keyFeatures: [
                             'Stores and maintains cleanliness of cleanroom apparel.',
                             'Provides filtered air circulation with optional UV light.',
@@ -574,11 +574,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/sampling-despensing-booth.jpg',
                     title: 'Sampling / Dispensing Booth (RLAF)',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/sampling-despensing-booth.jpg',
                         keyFeatures: [
                             'Ensures operator and product protection during powder handling.',
                             'Offers vertical unidirectional airflow and built-in exhaust.',
@@ -589,11 +589,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/static-pass-box.jpg',
                     title: 'Static Pass Box',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/static-pass-box.jpg',
                         keyFeatures: [
                             'Allows materials to pass between clean and less clean areas without active airflow.',
                             'Equipped with electromagnetic interlocks for contamination control.',
@@ -604,11 +604,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/cleanroom-trolley.jpg',
                     title: 'Cleanroom Trolley / SS Furniture',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/clearoom-trolley.jpg',
                         keyFeatures: [
                             'Non-shedding, corrosion-resistant furniture tailored for cleanrooms.',
                             'Includes tables, lockers, stools, and instrument stands.',
@@ -626,11 +626,11 @@ function ProductsPage(){
             description: 'Turnkey solutions for aseptic processing of injectables, ophthalmics, and sterile liquids. Designed for contamination-free, high-speed filling lines with compliance to international regulatory norms.',
             products: [
                 {
-                    img1: '',
+                    img1: '/images/vial-washing-machine.jpg',
                     title: 'Vial Washing Machine',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/vial-washing-machine.jpg',
                         keyFeatures: [
                             '- Multi-stage washing of vial interior and exterior using purified water and air.',
                             'Ensures pyrogen-free, particle-free vials before sterilization.',
@@ -641,11 +641,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/sterilizing&depyrogenation-tunnel.jpg',
                     title: 'Sterilizing & Depyrogenation Tunnel',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/sterilizing&depyrogenation-tunnel.jpg',
                         keyFeatures: [
                             'Uses dry heat and HEPA-filtered air to depyrogenate washed vials',
                             'Validated for endotoxin reduction and sterilization.',
@@ -656,11 +656,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/liquid-filling-machine.jpg',
                     title: 'Liquid Filling & Stoppering Machine',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/liquid-filling-machine.jpg',
                         keyFeatures: [
                             'High-precision servo-driven dosing system for liquid injectables.',
                             'Insert rubber stoppers under sterile laminar conditions.',
@@ -671,11 +671,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: 'Vial Capping Machine',
-                    title: '',
+                    img1: '/images/vial-caping-machine.jpg',
+                    title: 'Vial Capping Machine',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/vial-caping-machine.jpg',
                         keyFeatures: [
                             'Seals vials with aluminum caps using rotary or linear systems.',
                             'Supports tear-off or flip-off cap styles.',
@@ -686,11 +686,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/external-vial-washer.jpg',
                     title: 'External Vial Washer',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/external-vial-washer.jpg',
                         keyFeatures: [
                             'Cleans vial exteriors post-filling and capping.',
                             'Removes residual liquids, particles, and labels.',
@@ -701,11 +701,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/inspection-machine.jpg',
                     title: 'Inspection Machine',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/inspection-machine.jpg',
                         keyFeatures: [
                             'Detects particles, cracks, and cosmetic defects in vials.',
                             'Available in manual, semi-automatic, and camera-based systems.',
@@ -716,11 +716,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/sterile-powder-filling-machine.jpg',
                     title: 'Sterile Powder Filling Machine',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/sterile-powder-filling-machine.jpg',
                         keyFeatures: [
                             'Doses lyophilized or dry powder into sterile vials under nitrogen atmosphere.',
                             'Supports automatic stoppering and weight feedback loop.',
@@ -731,11 +731,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/lyophilizer.webp',
                     title: 'Lyophilizer (Freeze Dryer)',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/lyophilizer.webp',
                         keyFeatures: [
                             'Removes moisture from injectables via sublimation under vacuum.',
                             'Supports bulk and vial-based lyophilization',
@@ -746,11 +746,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/RABS.jpg',
                     title: 'RABS / Isolator Systems',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/RABS.jpg',
                         keyFeatures: [
                             'Physical barrier systems that ensure aseptic integrity.',
                             'Reduces human intervention and contamination risk.',
@@ -761,11 +761,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/conveyor-system.jpg',
                     title: 'Conveyor System',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/conveyor-system.jpg',
                         keyFeatures: [
                             'Transfers vials between equipment without vibration or breakage.',
                             'Laminar flow-compatible conveyors with smooth SS belts.',
@@ -783,11 +783,11 @@ function ProductsPage(){
             description: 'We provide reliable, high-precision lab equipment that supports product R&D, analytical testing, and quality control in pharmaceutical and biotech labs.',
             products: [
                 {
-                    img1: '',
+                    img1: '/images/stability-chambers.jpg',
                     title: 'Stability Chambers',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/stability-chambers.jpg',
                         keyFeatures: [
                             'Maintain specific temperature and humidity for shelf-life studies.',
                             'Compliant with ICH guidelines (Zone I-IV).',
@@ -798,11 +798,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/uv-spectrophotometer.jpg',
                     title: 'UV-Visible Spectrophotometer',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/uv-spectrophotometer.jpg',
                         keyFeatures: [
                             'Performs quantitative and qualitative drug analysis.',
                             'Single or double beam with auto wavelength calibration.',
@@ -813,11 +813,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/ph-meter.jpg',
                     title: 'pH Meter',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/ph-meter.jpg',
                         keyFeatures: [
                             'Measures hydrogen ion concentration with high accuracy.',
                             'Auto temperature compensation and calibration features.',
@@ -828,11 +828,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/dissolution-tester.jpg',
                     title: 'Dissolution Tester',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/dissolution-tester.jpg',
                         keyFeatures: [
                             'Evaluates drug release profile under simulated conditions.',
                             'USP Apparatus I (basket) and II (paddle) supported.',
@@ -843,11 +843,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/disintegration-tester.jpg',
                     title: 'Disintegration Tester',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/disintegration-tester.jpg',
                         keyFeatures: [
                             'Determines time taken for tablet/capsule to break in aqueous solution.',
                             'Critical for bioavailability and quality validation.',
@@ -858,11 +858,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/friability-tester.jpg',
                     title: 'Friability Tester',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/friability-tester.jpg',
                         keyFeatures: [
                             'Measures mechanical resistance of tablets to abrasion.',
                             'Drum rotates at fixed speed and time.',
@@ -873,11 +873,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/analytical-bal.jpg',
                     title: 'Analytical Balances',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/analytical-bal.jpg',
                         keyFeatures: [
                             'Highly sensitive instruments with readability up to 0.0001 mg.',
                             'Anti-vibration feet and glass draft shields.',
@@ -888,11 +888,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/hot-air-oven.jpg',
                     title: 'Hot Air Oven / Muffle Furnace',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/hot-air-oven.jpg',
                         keyFeatures: [
                             'Heats up to 3001200C for sterilization and material testing.',
                             'Digital PID controllers ensure temperature uniformity.',
@@ -903,11 +903,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/magnetic-stirrer.jpg',
                     title: 'Magnetic Stirrer / Heating Mantle',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/magnetic-stirrer.jpg',
                         keyFeatures: [
                             'Stirring and heating liquids in beakers or flasks.',
                             'Used in titration, sample prep, and dissolution.',
@@ -918,11 +918,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/autoclave.webp',
                     title: 'Autoclave',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/autoclave.webp',
                         keyFeatures: [
                             'Steam sterilizer for culture media, glassware, and instruments.',
                             'Vertical and horizontal configurations.',
@@ -933,11 +933,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/LAF-lab.png',
                     title: 'LAF for Lab',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/LAF-lab.png',
                         keyFeatures: [
                             'Particle-free airflow protects sensitive test procedures.',
                             'Common in microbiology and analytical labs.',
@@ -955,11 +955,11 @@ function ProductsPage(){
             description: 'Critical air handling systems designed to control temperature, humidity, airflow, and pressure differentials in pharmaceutical cleanrooms and production areas.',
             products: [
                 {
-                    img1: '',
+                    img1: '/images/air-handling-units-1.jpg',
                     title: 'AHUs (Air Handling Units)',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/air-handling-units-1.jpg',
                         keyFeatures: [
                             'Condition, filter, and distribute air throughout clean zones.',
                             'Equipped with pre-filters, HEPA/ULPA filters, and control dampers.',
@@ -969,11 +969,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/chiller1.jpg',
                     title: 'Chillers',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/chiller1.jpg',
                         keyFeatures: [
                             'Provides chilled water for air conditioning or process cooling.',
                             'Air-cooled or water-cooled depending on project size.',
@@ -983,11 +983,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/dehumidifiers.jpg',
                     title: 'Dehumidifiers / Humidifiers',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/dehumidifiers.jpg',
                         keyFeatures: [
                             'Maintain RH levels required for cleanroom or product stability.',
                             'Desiccant or refrigeration-based models available.',
@@ -997,11 +997,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/air-filters.jpg',
                     title: 'Air Filters (HEPA, ULPA)',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/air-filters.jpg',
                         keyFeatures: [
                             'Capture 99% of airborne particles.',
                             'Used in AHUs, LAFs, pass boxes, and sterile lines.',
@@ -1011,11 +1011,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: 'images/ducting-sys1.jpg',
                     title: 'Ducting Systems (GI, SS, Fabric)',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/ducting-sys1.jpg',
                         keyFeatures: [
                             'Transmit conditioned air across cleanroom zones.',
                             'Fabric or stainless-steel ducting based on application.',
@@ -1025,11 +1025,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/Fan-Coil-Unit.png',
                     title: 'FCUs (Fan Coil Units)',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/Fan-Coil-Unit.png',
                         keyFeatures: [
                             'Localized air temperature control in labs or smaller spaces.',
                             'Silent, low-maintenance with simple thermostat control.',
@@ -1039,11 +1039,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/VAV.jpg',
                     title: 'VAV/VRV Systems',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/VAV.jpg',
                         keyFeatures: [
                             'VAV: Variable Air Volume systems for zone-wise airflow control.',
                             'VRV: Refrigerant-based variable systems with energy efficiency.',
@@ -1053,11 +1053,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/air-curtains.jpg',
                     title: 'Air Curtains & Pressure Dampers',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/air-curtains.jpg',
                         keyFeatures: [
                             'Air curtains block air exchange between rooms while allowing movement.',
                             'Pressure dampers maintain cleanroom pressure differentials.',
@@ -1075,11 +1075,11 @@ function ProductsPage(){
             description: 'Industrial utilities for clean, safe, and uninterrupted operation of pharmaceutical processes.',
             products: [
                 {
-                    img1: '',
+                    img1: '/images/compressed-air-sys.jpg',
                     title: 'Compressed Air Systems',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/compressed-air-sys.jpg',
                         keyFeatures: [
                             'Compressors, dryers, and filters to supply clean, oil-free air.',
                             'Used in pneumatic systems, fluid beds, and packaging machines.',
@@ -1089,11 +1089,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/steam-generation.jpg',
                     title: 'Steam Generation',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/steam-generation.jpg',
                         keyFeatures: [
                             'Boilers and steam traps produce dry, pharma-grade steam.',
                             'Used for sterilization, CIP/SIP systems, and jacketed vessels.',
@@ -1103,11 +1103,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/water-sys.jpg',
                     title: 'Water Systems',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/water-sys.jpg',
                         keyFeatures: [
                             'RO Plants: Multi-stage purification systems to remove salts and contaminants.',
                             'WFI: Distillation or membrane-based Water for Injection system.',
@@ -1117,11 +1117,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/vaccum-sys.jpg',
                     title: 'Vacuum Systems',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/vaccum-sys.jpg',
                         keyFeatures: [
                             'Centralized vacuum pumps for tablet dedusting, capsule filling, and filtration.',
                             'Oil-lubricated or dry-type depending on process requirements.',
@@ -1131,11 +1131,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/nitrogen-genration.jpg',
                     title: 'Nitrogen Generation',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/nitrogen-genration.jpg',
                         keyFeatures: [
                             'PSA-based systems separate nitrogen from atmospheric air.',
                             'Supplies inert atmosphere for packaging, drying, and filling.',
@@ -1144,20 +1144,20 @@ function ProductsPage(){
                         ],
                     }
                 },
-                {
-                    img1: '',
-                    title: '',
-                    description: '',
-                    completeDetails: {
-                        image:'/images/',
-                        keyFeatures: [
-                            '',
-                            '',
-                            '',
-                            '',
-                        ],
-                    }
-                },
+                // {
+                //     img1: '',
+                //     title: '',
+                //     description: '',
+                //     completeDetails: {
+                //         image:'/images/',
+                //         keyFeatures: [
+                //             '',
+                //             '',
+                //             '',
+                //             '',
+                //         ],
+                //     }
+                // },
                 
             ]
         },
@@ -1167,11 +1167,11 @@ function ProductsPage(){
             description: 'Complete planning, engineering, and execution advisory to build future-ready, compliant pharmaceutical facilities',
             products: [
                 {
-                    img1: '',
+                    img1: '/images/concept-design.jpg',
                     title: 'Concept Design',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/concept-design.jpg',
                         keyFeatures: [
                             'Site master planning aligned with WHO, USFDA, and EU-GMP norms.',
                             'Evaluation of feasibility, capacity, and environmental compliance.',
@@ -1181,11 +1181,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/layout-planning.jpg',
                     title: 'Layout Planning',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/layout-planning.jpg',
                         keyFeatures: [
                             'Zone classification and workflow analysis.',
                             'Minimizes cross-contamination with man/material movement paths.',
@@ -1195,11 +1195,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/detailed-eng.jpg',
                     title: 'Detailed Engineering',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/detailed-eng.jpg',
                         keyFeatures: [
                             'Complete architectural, HVAC, utility, piping, civil, and electrical drawings.',
                             'Modular panel and cleanroom detailing.',
@@ -1209,11 +1209,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: '',
+                    img1: '/images/RCS.jpg',
                     title: 'Regulatory Compliance Support',
                     description: '',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/RCS.jpg',
                         keyFeatures: [
                             'Support for preparing URS, DQ, and validation protocols.',
                             'Design validation based on cGMP, PIC/S, MHRA, and local FDA guidelines.',

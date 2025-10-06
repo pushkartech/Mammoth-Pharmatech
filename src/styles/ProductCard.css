@@ -19,6 +19,7 @@
         .product-page-content img {
             width: 250px;
             height: 200px;
+            object-fit: cover;
         }
         .product-page-content h3 {
             font-size: 1.3rem;

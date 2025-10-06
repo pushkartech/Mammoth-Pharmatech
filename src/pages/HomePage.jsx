@@ -11,10 +11,10 @@ const HomePage = ()=>{
         <div className="App">
         <HeroSection/>
         <AboutSection/>
+        <PrinciplesSection/>
         <TimelineSection/>
         <ProductsSection/>
         {/* <PartnersSection/> */}
-        <PrinciplesSection/>
         <ContactSection/>
       </div>
     );

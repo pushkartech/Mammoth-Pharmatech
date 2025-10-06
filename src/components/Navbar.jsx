@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Navbar.css';
-import img1 from "../images/img3.png";
+const img1= '/images/icon-red.png';
 
 
 function Navbar() {
@@ -25,7 +25,7 @@ function Navbar() {
                             <li><a href="/">Home</a></li>
                             <li><a href="/">About</a></li>
                             <li><a href="/productsPage">Products</a></li>
-                            <li><a href="/">Principles</a></li>
+                            {/* <li><a href="/">Principles</a></li> */}
                             <li><a href="/" className="nav-contact-btn">Contact Us</a></li>
                         </ul>
                     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/AboutSection.css';
 function AboutSection() {
             return (
-                <section id="about" className="section">
+                <section id="about" className="about-section">
                     <div className="container">
                         <h2 className="section-title">About Mammoth Pharmatech</h2>
                         

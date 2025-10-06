@@ -25,7 +25,7 @@ function PrinciplesSection() {
             ];
 
             return (
-                <section id="principles" className="section">
+                <section id="principles" className="principle-section">
                     <div className="container">
                         <h2 className="section-title">Our Principles</h2>
                         <div className="principles-container">
