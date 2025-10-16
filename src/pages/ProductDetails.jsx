@@ -1,65 +1,85 @@
 import React from "react";
-import '../styles/ProductDetails.css';
-import { useLocation } from "react-router-dom";
+import "../styles/ProductDetails.css";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const ProductDetails = () => {
-  const goBack = () => window.history.back();
+  const navigate = useNavigate();
   const location = useLocation();
-  const completeDetails = location.state?.completeDetails;
-  const title = location.state?.title;
-  const description = location.state?.description;
-  console.log("complete details are "+JSON.stringify(completeDetails.availableTypes));
+
+  const completeDetails = location.state?.completeDetails || {};
+  const { image, keyFeatures = [], placementInfo, availableTypes = [] } = completeDetails;
+  const title = location.state?.title || "Product Details";
+  const description = location.state?.description || "";
+
+  const goBack = (e) => {
+    e.preventDefault();
+    navigate(-1);
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <div className="container">
-      <a href="#" className="back-btn" onClick={(e) => { e.preventDefault(); goBack(); }}>
+    <div className="product-details-container">
+      <a href="#" className="back-btn" onClick={goBack}>
         <i>←</i> Back to Products
       </a>
 
       <div className="product-container">
         <div
           className="product-image"
-          style={{ backgroundImage: `url(${completeDetails.image})` }}
+          style={{ backgroundImage: `url(${image})` }}
         ></div>
 
         <div className="product-info">
           <h1 className="product-title">{title}</h1>
 
-          <p className="product-description">
-            {description}
-          </p>
+          <p className="product-description">{description}</p>
 
-          <h2 className="section-title">Key Features</h2>
-          <ul className="features-list">
-            {
-                completeDetails.keyFeatures?.map((feature)=>{
-                    return <ul>{feature}</ul>
-                })
-            }
-          </ul>
+          {/* ✅ Key Features */}
+          {keyFeatures.length > 0 && (
+            <>
+              <h2 className="section-title">Key Features</h2>
+              <ul className="features-list">
+                {keyFeatures.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+              </ul>
+            </>
+          )}
 
-          {/* <div className="placement-info">
-            <h2 className="section-title">Recommended Placement</h2>
-            <p>
-              {completeDetails.placementInfo}
-            </p>
-          </div> */}
-
-          {/* <div className="types-info">
-            <h2 className="section-title">Available Types</h2>
-            <div className="types-list">
-            {
-                completeDetails?.availableTypes?.map((type)=>{
-                    return <span className="type-pill">{type}</span>
-                })
-            }
+          {/* ✅ Optional Placement Info */}
+          {/* {placementInfo && (
+            <div className="placement-info">
+              <h2 className="section-title">Recommended Placement</h2>
+              <p>{placementInfo}</p>
             </div>
-          </div>
+          )} */}
 
-          <div className="cta-container">
-            <button className="cta-btn primary-btn" onClick={() => alert('Quote request form would appear here')}>
+          {/* ✅ Optional Available Types */}
+          {/* {availableTypes.length > 0 && (
+            <div className="types-info">
+              <h2 className="section-title">Available Types</h2>
+              <div className="types-list">
+                {availableTypes.map((type, index) => (
+                  <span key={index} className="type-pill">
+                    {type}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )} */}
+
+          {/* ✅ CTA Buttons */}
+          {/* <div className="cta-container">
+            <button
+              className="cta-btn primary-btn"
+              onClick={() => alert("Quote request form will appear here.")}
+            >
               Request Quote
             </button>
-            <button className="cta-btn secondary-btn" onClick={() => alert('Initiating download of product specifications PDF')}>
+            <button
+              className="cta-btn secondary-btn"
+              onClick={() => alert("Product specification download will start.")}
+            >
               Download Specs
             </button>
           </div> */}

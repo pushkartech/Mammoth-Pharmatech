@@ -96,10 +96,10 @@ function ProductsPage(){
                     completeDetails: {
                         image:'/images/RMG.jpg',
                         keyFeatures: [
-                            '- Ensures rapid and uniform mixing and granulation of powders.',
-                            '- High-speed impeller and chopper deliver precise granule formation.',
-                            '- Short batch time improves manufacturing productivity.',
-                            '- Available in lab, pilot, and production-scale versions.',
+                            'Ensures rapid and uniform mixing and granulation of powders.',
+                            'High-speed impeller and chopper deliver precise granule formation.',
+                            'Short batch time improves manufacturing productivity.',
+                            'Available in lab, pilot, and production-scale versions.',
                         ],
                         placementInfo: 'placement information will come here',
                         availableTypes: [
@@ -115,8 +115,8 @@ function ProductsPage(){
                     completeDetails: {
                         image:'/images/FBD.png',
                         keyFeatures: [
-                            '- Uniform drying using hot air fluidization for wet granules',
-                            '- Equipped with HEPA filters for clean drying environments.',
+                            'Uniform drying using hot air fluidization for wet granules',
+                            'Equipped with HEPA filters for clean drying environments.',
                             'Integrated explosion vents for safety with solvent-based operations.',
                             'Available with WIP (Wash-in-Place) system for ease of cleaning.',
                         ],
@@ -282,7 +282,7 @@ function ProductsPage(){
                     completeDetails: {
                         image:'https://www.karnavatiengineering.com/admin/product/0_458e8562.png',
                         keyFeatures: [
-                            ' Available in single and double rotary types for different capacities.',
+                            'Available in single and double rotary types for different capacities.',
                             'Integrates pre-compression and main compression stations.',
                             'Supports turret lifts and force feeders for continuous production.',
                         ],
@@ -295,11 +295,11 @@ function ProductsPage(){
                     }
                 },
                 {
-                    img1: 'https://cdn.labx.com/v2/landing_pages/4117/5f80a278-7c35-4ea2-a0f5-922c11d0d045.webp',
-                    title: '2. Tablet Deduster',
+                    img1: './images/tablet-deduster.webp',
+                    title: 'Tablet Deduster',
                     description: 'Removes residual powder from compressed tablets efficiently.',
                     completeDetails: {
-                        image:'/images/',
+                        image:'/images/tablet-deduster.webp',
                         keyFeatures: [
                             'Uses vibratory motion to reduce surface contamination.',
                             'Compact and mobile for easy integration in compression lines.',

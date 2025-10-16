@@ -1,138 +1,105 @@
-/* .timeline {
-            position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 0;
-        }
-
-
-
-        .timeline::before {
-            content: '';
-            position: absolute;
-            width: 2px;
-            background-color: #d70000;
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -1px;
-        }
-
-        .timeline-item {
-            padding: 20px 40px;
-            position: relative;
-            width: 50%;
-            box-sizing: border-box;
-        }
-
-        .timeline-item:nth-child(odd) {
-            left: 0;
-        }
-
-        .timeline-item:nth-child(even) {
-            left: 50%;
-        }
-
-        .timeline-content {
-            padding: 30px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        }
-        
-
-
-        .timeline-year {
-            font-size: 1.8rem;
-            color: #d70000;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-
-        .timeline-desc {
-            color: #555;
-        }
-
-        .timeline-item::after {
-            content: '';
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background-color: #d70000;
-            border-radius: 50%;
-            top: 30px;
-            z-index: 1;
-        }
-        
-
-
-        .timeline-item:nth-child(odd)::after {
-            right: -10px;
-        }
-
-        .timeline-item:nth-child(even)::after {
-            left: -10px;
-        } */
-
-        .timeline-section {
+.timeline-section {
   text-align: center;
-  padding: 50px 20px;
-  background-color: #fff;
+  padding: 80px 20px;
+  background-color: #ffffff;
 }
 
 .timeline-title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #d70000;
-  font-weight: bold;
-  margin-bottom: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .timeline-container {
   position: relative;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 60px 0 20px;
-  border-top: 3px solid #d70000;
-  overflow-x: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 40px;
+}
+
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: calc(100% - 100px);
+  background-color: #d70000;
+  opacity: 0.2;
 }
 
 .timeline-item {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 250px;
-  margin: 0 10px;
+  width: 260px;
+  text-align: center;
 }
 
 .timeline-dot {
   position: absolute;
-  top: -13px;
-  width: 14px;
-  height: 14px;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
   background-color: #d70000;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 2;
+  box-shadow: 0 0 0 5px rgba(215, 0, 0, 0.15);
 }
 
 .timeline-card {
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-  text-align: left;
+  height: 220px;
+  background-color: #ffffff;
+  border: 1px solid rgba(215, 0, 0, 0.15);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
+  padding: 25px 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+
+.timeline-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(215, 0, 0, 0.2);
 }
 
 .timeline-card h3 {
   color: #d70000;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
 .timeline-card p {
   color: #333;
   font-size: 0.95rem;
-  line-height: 1.4;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline-container::before {
+    display: none;
+  }
+
+  .timeline-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .timeline-item {
+    width: 90%;
+  }
+
+  .timeline-card {
+    text-align: left;
+  }
 }

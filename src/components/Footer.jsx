@@ -17,8 +17,7 @@ function Footer() {
                                 <ul className="footer-links">
                                     <li><a href="#home">Home</a></li>
                                     <li><a href="#about">About Us</a></li>
-                                    <li><a href="#products">Products</a></li>
-                                    <li><a href="#principles">Principles</a></li>
+                                    <li><a href="/productsPage">Products</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
@@ -35,6 +34,11 @@ function Footer() {
                                 <div className="footer-contact-item">
                                     <i className="fas fa-map-marker-alt footer-contact-icon"></i>
                                     <span>123 Pharma Tech Avenue, Mumbai, India</span>
+                                </div>
+                                <div className="social-icons">
+                                    <a href="https://www.linkedin.com/company/mammoth-pharmatech" className=""><i className="fab fa-linkedin-in footer-contact-icon"></i></a><span>LinkedIn</span>
+                                    {/* <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
+                                    <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a> */}
                                 </div>
                             </div>
                         </div>
