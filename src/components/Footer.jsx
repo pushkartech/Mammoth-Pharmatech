@@ -29,13 +29,13 @@ function Footer() {
                                 </div>
                                 <div className="footer-contact-item">
                                     <i className="fas fa-envelope footer-contact-icon"></i>
-                                    <span>info@mammothpharmatech.com</span>
+                                    <span>info@mammothpharma.com</span>
                                 </div>
                                 <div className="footer-contact-item">
                                     <i className="fas fa-map-marker-alt footer-contact-icon"></i>
-                                    <span>123 Pharma Tech Avenue, Mumbai, India</span>
+                                    <span>Charni Road, South Mumbai, India - 400002</span>
                                 </div>
-                                <div className="social-icons">
+                                <div className="footer-contact-item">
                                     <a href="https://www.linkedin.com/company/mammoth-pharmatech" className=""><i className="fab fa-linkedin-in footer-contact-icon"></i></a><span>LinkedIn</span>
                                     {/* <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
                                     <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a> */}

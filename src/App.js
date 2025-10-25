@@ -15,30 +15,39 @@ import ProductDetails from "./pages/ProductDetails";
 function ScrollToTop() {
   const location = useLocation();
   const { pathname, hash } = location;
-
+  
   useEffect(() => {
-    // allow the page to render before scrolling to element
-    if (hash) {
-      const id = hash.replace('#', '');
-      // small timeout to allow DOM to render
-      setTimeout(() => {
+    // allow DOM to render first
+    const tick = setTimeout(() => {
+      if (hash) {
+        const id = hash.replace("#", "");
         const el = document.getElementById(id);
         if (el) {
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          // offset fix: if navbar overlaps, you can also use window.scrollBy
-          // window.scrollBy(0, -80);
-        } else {
-          // fallback: jump to top if not found
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+          // compute navbar height from CSS variable (fallback to 80)
+          const styles = getComputedStyle(document.documentElement);
+          const navHeightRaw = styles.getPropertyValue("--navbar-height") || "80px";
+          const navHeight = parseInt(navHeightRaw.trim(), 10) || 80;
+          // small extra offset
+          const offset = 12; // matches CSS breathing room
+          // compute absolute top of element then subtract navbar height
+          const elTop = el.getBoundingClientRect().top + window.pageYOffset;
+          const target = Math.max(0, elTop - navHeight - offset);
+
+          window.scrollTo({ top: target, behavior: "smooth" });
+          return;
         }
-      }, 50);
-    } else {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+      }
+
+      // default: scroll to top of the page for path changes (no hash)
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 60); // short delay to ensure layout/render
+
+    return () => clearTimeout(tick);
   }, [pathname, hash]);
 
   return null;
 }
+
 
 function App() {
   return (

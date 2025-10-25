@@ -73,12 +73,13 @@
 /* Collapsible panel */
 .section-panel {
   border-top: 1px solid var(--border);
-  padding: 1rem;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.35s cubic-bezier(.2,.9,.2,1), padding 0.2s ease;
+  transition: max-height 0.35s cubic-bezier(0.2, 0.9, 0.2, 1);
+  padding: 0; /* prevent padding expansion from moving content */
 }
+
 .section-panel.expanded {
-  max-height: 2000px; /* large enough for content */
-  padding: 1rem;
+  max-height: 2500px; /* enough for content */
+  padding-top: 1rem; /* only top padding to maintain spacing */
 }

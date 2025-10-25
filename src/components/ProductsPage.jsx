@@ -277,12 +277,12 @@ function ProductsPage(){
             products: [
                 {
                     img1: 'https://www.karnavatiengineering.com/admin/product/0_458e8562.png',
-                    title: '1. Tablet Compression Machine',
-                    description: 'Converts granulated powders into uniform tablets at high speed.',
+                    title: 'Tablet Compression Machine',
+                    description: 'Available in single and double rotary types for different capacities.',
                     completeDetails: {
                         image:'https://www.karnavatiengineering.com/admin/product/0_458e8562.png',
                         keyFeatures: [
-                            'Available in single and double rotary types for different capacities.',
+                            'Converts granulated powders into uniform tablets at high speed.',
                             'Integrates pre-compression and main compression stations.',
                             'Supports turret lifts and force feeders for continuous production.',
                         ],
@@ -315,7 +315,7 @@ function ProductsPage(){
                 },
                 {
                     img1: '/images/metal-detector.webp',
-                    title: '3. Metal Detector',
+                    title: 'Metal Detector',
                     description: 'Detects and rejects ferrous, non-ferrous, and stainless steel particles.',
                     completeDetails: {
                         image:'/images/metal-detector.webp',
@@ -334,7 +334,7 @@ function ProductsPage(){
                 },
                 {
                     img1: '/images/tablet-coating.jpg',
-                    title: '4. Tablet Coating Machine',
+                    title: 'Tablet Coating Machine',
                     description: 'Applies uniform coating (sugar or film) to tablets using automated systems.',
                     completeDetails: {
                         image:'/images/tablet-coating.jpg',
@@ -353,7 +353,7 @@ function ProductsPage(){
                 },
                 {
                     img1: '/images/capsule-filling.jpg',
-                    title: '5. Capsule Filling Machine',
+                    title: 'Capsule Filling Machine',
                     description: 'Fills powders, granules, or pellets into hard gelatin capsules.',
                     completeDetails: {
                         image:'/images/capsule-filling.jpg',
@@ -372,7 +372,7 @@ function ProductsPage(){
                 },
                 {
                     img1: '/images/capsule-polishing.jpg',
-                    title: '6. Capsule Polishing Machine',
+                    title: 'Capsule Polishing Machine',
                     description: 'Cleans and polishes filled capsules using soft brushes.',
                     completeDetails: {
                         image:'/images/capsule-polishing.jpg',
@@ -391,14 +391,13 @@ function ProductsPage(){
                 },
                 {
                     img1: '/images/inspection-conveyor.jpg',
-                    title: '7. Inspection Conveyor / Visual Inspection Machine',
-                    description: '',
+                    title: 'Inspection Conveyor / Visual Inspection Machine',
+                    description: 'Helps in detecting defects like cracks, color variation, and chips.',
                     completeDetails: {
                         image:'/images/inspection-conveyor.jpg',
                         keyFeatures: [
                             'Allows manual or camera-based visual inspection of tablets and capsules.',
                             'Includes adjustable speed belts, lighting, and magnifiers.',
-                            'Helps in detecting defects like cracks, color variation, and chips.',
                             'Can be customized for multi-view inspection.',
                         ],
                         placementInfo: 'placement information will come here',
@@ -411,15 +410,14 @@ function ProductsPage(){
                 },
                 {
                     img1: '/images/blister-packing.jpg',
-                    title: '8. Blister Packing Machine',
-                    description: '',
+                    title: 'Blister Packing Machine',
+                    description: 'Encapsulates tablets/capsules in aluminum or PVC blister packs.',
                     completeDetails: {
                         image:'/images/blister-packing.jpg',
                         keyFeatures: [
-                            'Encapsulates tablets/capsules in aluminum or PVC blister packs.',
                             'Available in semi-automatic and fully automatic configurations.',
-                            '- Features forming, sealing, perforating, and punching stations.',
-                            '- Ensures product protection and branding compatibility.',
+                            'Features forming, sealing, perforating, and punching stations.',
+                            'Ensures product protection and branding compatibility.',
                         ],
                         placementInfo: 'placement information will come here',
                         availableTypes: [
@@ -431,15 +429,14 @@ function ProductsPage(){
                 },
                 {
                     img1: '/images/strip-packing.jpg',
-                    title: '9. Strip Packing Machine',
-                    description: '',
+                    title: 'Strip Packing Machine',
+                    description: 'Seals tablets or capsules between two aluminum foil strips.',
                     completeDetails: {
                         image:'/images/strip-packing.jpg',
                         keyFeatures: [
-                            'Seals tablets or capsules between two aluminum foil strips.',
-                            '- Ideal for moisture-sensitive and light-sensitive medications.',
-                            '- Compact footprint with automated feeding and sealing.',
-                            '- Delivers leak-proof, tamper-evident packaging.',
+                            'Ideal for moisture-sensitive and light-sensitive medications.',
+                            'Compact footprint with automated feeding and sealing.',
+                            'Delivers leak-proof, tamper-evident packaging.',
                         ],
                         placementInfo: 'placement information will come here',
                         availableTypes: [
@@ -452,14 +449,13 @@ function ProductsPage(){
                 {
                     img1: '/images/bottle-filling-line.jpg',
                     title: '10. Bottle Filling Line (For solid dosage)',
-                    description: '',
+                    description: 'Automates bottle unscrambling, filling, sealing, and labeling.',
                     completeDetails: {
                         image:'/images/bottle-filling-line.jpg',
                         keyFeatures: [
-                            'Automates bottle unscrambling, filling, sealing, and labeling.',
-                            '- Tablet counting machines with high-speed optical sensors.',
-                            '- Includes desiccant inserter and induction/seal capper.',
-                            '- Integrated labeling and cartoning modules ensure retail readiness.',
+                            'Tablet counting machines with high-speed optical sensors.',
+                            'Includes desiccant inserter and induction/seal capper.',
+                            'Integrated labeling and cartoning modules ensure retail readiness.',
                         ],
                         placementInfo: 'placement information will come here',
                         availableTypes: [
@@ -471,15 +467,14 @@ function ProductsPage(){
                 },
                 {
                     img1: '/images/carton-wrap.jpg',
-                    title: '11. Cartoning & Overwrapping Machines',
-                    description: '',
+                    title: 'Cartoning & Overwrapping Machines',
+                    description: 'Packs primary packs into folding cartons and overwraps them.',
                     completeDetails: {
                         image:'/images/carton-wrap.jpg',
                         keyFeatures: [
-                            'Packs primary packs into folding cartons and overwraps them.',
-                            '- Supports automatic leaflet insertion and batch coding.',
-                            '- Ensures secondary packaging for logistics and compliance.',
-                            '- Reduces manual handling while improving throughput.',
+                            'Supports automatic leaflet insertion and batch coding.',
+                            'Ensures secondary packaging for logistics and compliance.',
+                            'Reduces manual handling while improving throughput.',
                         ],
                         placementInfo: 'placement information will come here',
                         availableTypes: [
@@ -501,11 +496,11 @@ function ProductsPage(){
                 {
                     img1: '/images/LAF.jpg',
                     title: 'Laminar Air Flow (LAF) Unit',
-                    description: '',
+                    description: 'Provides unidirectional HEPA-filtered air for localized sterile workspaces.',
                     completeDetails: {
                         image:'/images/LAF.jpg',
                         keyFeatures: [
-                            'Provides unidirectional HEPA-filtered air for localized sterile workspaces.',
+                            
                             'Available in vertical and horizontal configurations.',
                             'Offers ISO Class 5 environment for product/process protection.',
                             'Ideal for dispensing, sampling, and aseptic operations.',
@@ -516,11 +511,11 @@ function ProductsPage(){
                 {
                     img1: '/images/BSC.jpg',
                     title: 'Biosafety Cabinet (BSC)',
-                    description: '',
+                    description: 'Protects personnel, environment, and product when handling biohazards.',
                     completeDetails: {
                         image:'/images/BSC.jpg',
                         keyFeatures: [
-                            'Protects personnel, environment, and product when handling biohazards.',
+                            
                             'Offered in Class II A2, B2, and Class III for varying risk levels.',
                             'Negative pressure airflow with HEPA filtration ensures containment.',
                             'Suitable for cytotoxic drugs, microbiology, and tissue culture labs.',
@@ -531,11 +526,11 @@ function ProductsPage(){
                 {
                     img1: '/images/pass-box.jpg',
                     title: 'Pass Box / Dynamic Pass Box',
-                    description: '',
+                    description: 'Facilitates material transfer between different cleanroom grades.',
                     completeDetails: {
                         image:'/images/pass-box.jpg',
                         keyFeatures: [
-                            'Facilitates material transfer between different cleanroom grades.',
+                            
                             'Interlocked doors prevent cross-contamination.',
                             'Dynamic version comes with HEPA filters and air blowers.',
                             'UV sterilization available for biological safety.',
@@ -546,7 +541,7 @@ function ProductsPage(){
                 {
                     img1: '/images/air-shower.jpg',
                     title: 'Air Shower',
-                    description: '',
+                    description: 'High-velocity jets of filtered air to decontaminate personnel.',
                     completeDetails: {
                         image:'/images/air-shower.jpg',
                         keyFeatures: [
@@ -561,7 +556,7 @@ function ProductsPage(){
                 {
                     img1: '/images/garment-storage-cabinet.jpg',
                     title: 'Garment Storage Cabinet',
-                    description: '',
+                    description: 'Apparel storage with filtered air circulation to maintain cleanliness.',
                     completeDetails: {
                         image:'/images/garment-storage-cabinet.jpg',
                         keyFeatures: [
@@ -576,7 +571,7 @@ function ProductsPage(){
                 {
                     img1: '/images/sampling-despensing-booth.jpg',
                     title: 'Sampling / Dispensing Booth (RLAF)',
-                    description: '',
+                    description: 'Dedicated booth for safe powder sampling and dispensing.',
                     completeDetails: {
                         image:'/images/sampling-despensing-booth.jpg',
                         keyFeatures: [
@@ -591,7 +586,7 @@ function ProductsPage(){
                 {
                     img1: '/images/static-pass-box.jpg',
                     title: 'Static Pass Box',
-                    description: '',
+                    description: 'Simple material transfer box without active airflow.',
                     completeDetails: {
                         image:'/images/static-pass-box.jpg',
                         keyFeatures: [
@@ -606,7 +601,7 @@ function ProductsPage(){
                 {
                     img1: '/images/cleanroom-trolley.jpg',
                     title: 'Cleanroom Trolley / SS Furniture',
-                    description: '',
+                    description: 'Non-shedding, corrosion-resistant furniture tailored for cleanrooms.',
                     completeDetails: {
                         image:'/images/clearoom-trolley.jpg',
                         keyFeatures: [
@@ -628,11 +623,11 @@ function ProductsPage(){
                 {
                     img1: '/images/vial-washing-machine.jpg',
                     title: 'Vial Washing Machine',
-                    description: '',
+                    description: 'Cleans vials internally and externally before sterilization and filling.',
                     completeDetails: {
                         image:'/images/vial-washing-machine.jpg',
                         keyFeatures: [
-                            '- Multi-stage washing of vial interior and exterior using purified water and air.',
+                            'Multi-stage washing of vial interior and exterior using purified water and air.',
                             'Ensures pyrogen-free, particle-free vials before sterilization.',
                             'Supports different vial sizes and formats.',
                             'Available with infeed and outfeed automation.',
@@ -643,7 +638,7 @@ function ProductsPage(){
                 {
                     img1: '/images/sterilizing&depyrogenation-tunnel.jpg',
                     title: 'Sterilizing & Depyrogenation Tunnel',
-                    description: '',
+                    description: 'Uses dry heat to depyrogenate and sterilize washed vials before filling.',
                     completeDetails: {
                         image:'/images/sterilizing&depyrogenation-tunnel.jpg',
                         keyFeatures: [
@@ -658,7 +653,7 @@ function ProductsPage(){
                 {
                     img1: '/images/liquid-filling-machine.jpg',
                     title: 'Liquid Filling & Stoppering Machine',
-                    description: '',
+                    description: 'High-precision filling and stoppering of liquid injectables in vials.'    ,
                     completeDetails: {
                         image:'/images/liquid-filling-machine.jpg',
                         keyFeatures: [
@@ -673,7 +668,7 @@ function ProductsPage(){
                 {
                     img1: '/images/vial-caping-machine.jpg',
                     title: 'Vial Capping Machine',
-                    description: '',
+                    description: 'Seals filled vials with aluminum caps to ensure sterility and integrity.',
                     completeDetails: {
                         image:'/images/vial-caping-machine.jpg',
                         keyFeatures: [
@@ -688,7 +683,7 @@ function ProductsPage(){
                 {
                     img1: '/images/external-vial-washer.jpg',
                     title: 'External Vial Washer',
-                    description: '',
+                    description: 'provides final cleaning of vial exteriors post-filling and capping.',
                     completeDetails: {
                         image:'/images/external-vial-washer.jpg',
                         keyFeatures: [
@@ -703,7 +698,7 @@ function ProductsPage(){
                 {
                     img1: '/images/inspection-machine.jpg',
                     title: 'Inspection Machine',
-                    description: '',
+                    description: 'Computer-vision based inspection for defects in filled vials.',
                     completeDetails: {
                         image:'/images/inspection-machine.jpg',
                         keyFeatures: [
@@ -718,7 +713,7 @@ function ProductsPage(){
                 {
                     img1: '/images/sterile-powder-filling-machine.jpg',
                     title: 'Sterile Powder Filling Machine',
-                    description: '',
+                    description: 'Fills lyophilized or dry powder formulations into sterile vials under aseptic conditions.',
                     completeDetails: {
                         image:'/images/sterile-powder-filling-machine.jpg',
                         keyFeatures: [
@@ -733,7 +728,7 @@ function ProductsPage(){
                 {
                     img1: '/images/lyophilizer.webp',
                     title: 'Lyophilizer (Freeze Dryer)',
-                    description: '',
+                    description: 'Sublimates moisture from frozen vials to produce stable lyophilized products.',
                     completeDetails: {
                         image:'/images/lyophilizer.webp',
                         keyFeatures: [
@@ -748,7 +743,7 @@ function ProductsPage(){
                 {
                     img1: '/images/RABS.jpg',
                     title: 'RABS / Isolator Systems',
-                    description: '',
+                    description: 'Provides a physical barrier between operators and aseptic processes to ensure sterility.',
                     completeDetails: {
                         image:'/images/RABS.jpg',
                         keyFeatures: [
@@ -763,7 +758,7 @@ function ProductsPage(){
                 {
                     img1: '/images/conveyor-system.jpg',
                     title: 'Conveyor System',
-                    description: '',
+                    description: 'Automated transfer of vials between sterile processing equipment.',
                     completeDetails: {
                         image:'/images/conveyor-system.jpg',
                         keyFeatures: [
@@ -785,7 +780,7 @@ function ProductsPage(){
                 {
                     img1: '/images/stability-chambers.jpg',
                     title: 'Stability Chambers',
-                    description: '',
+                    description: 'Controlled environment chambers for drug stability testing as per ICH guidelines.',
                     completeDetails: {
                         image:'/images/stability-chambers.jpg',
                         keyFeatures: [
@@ -800,7 +795,7 @@ function ProductsPage(){
                 {
                     img1: '/images/uv-spectrophotometer.jpg',
                     title: 'UV-Visible Spectrophotometer',
-                    description: '',
+                    description: 'Used for quantitative and qualitative analysis of drug substances.',
                     completeDetails: {
                         image:'/images/uv-spectrophotometer.jpg',
                         keyFeatures: [
@@ -815,7 +810,7 @@ function ProductsPage(){
                 {
                     img1: '/images/ph-meter.jpg',
                     title: 'pH Meter',
-                    description: '',
+                    description: 'Accurate measurement of hydrogen ion concentration in solutions.',
                     completeDetails: {
                         image:'/images/ph-meter.jpg',
                         keyFeatures: [
@@ -830,7 +825,7 @@ function ProductsPage(){
                 {
                     img1: '/images/dissolution-tester.jpg',
                     title: 'Dissolution Tester',
-                    description: '',
+                    description: 'Instrument to evaluate drug release profiles from solid oral dosage forms.',
                     completeDetails: {
                         image:'/images/dissolution-tester.jpg',
                         keyFeatures: [
@@ -845,7 +840,7 @@ function ProductsPage(){
                 {
                     img1: '/images/disintegration-tester.jpg',
                     title: 'Disintegration Tester',
-                    description: '',
+                    description: 'Measures time taken for tablets/capsules to break down in aqueous solution.',
                     completeDetails: {
                         image:'/images/disintegration-tester.jpg',
                         keyFeatures: [
@@ -860,7 +855,7 @@ function ProductsPage(){
                 {
                     img1: '/images/friability-tester.jpg',
                     title: 'Friability Tester',
-                    description: '',
+                    description: 'Assesses mechanical resistance of tablets to abrasion during handling and shipping.',
                     completeDetails: {
                         image:'/images/friability-tester.jpg',
                         keyFeatures: [
@@ -875,7 +870,7 @@ function ProductsPage(){
                 {
                     img1: '/images/analytical-bal.jpg',
                     title: 'Analytical Balances',
-                    description: '',
+                    description: 'High-precision weighing for formulation and analytical tasks.',
                     completeDetails: {
                         image:'/images/analytical-bal.jpg',
                         keyFeatures: [
@@ -890,7 +885,7 @@ function ProductsPage(){
                 {
                     img1: '/images/hot-air-oven.jpg',
                     title: 'Hot Air Oven / Muffle Furnace',
-                    description: '',
+                    description: 'Sterilization and material testing using dry heat.',
                     completeDetails: {
                         image:'/images/hot-air-oven.jpg',
                         keyFeatures: [
@@ -905,7 +900,7 @@ function ProductsPage(){
                 {
                     img1: '/images/magnetic-stirrer.jpg',
                     title: 'Magnetic Stirrer / Heating Mantle',
-                    description: '',
+                    description: 'Used for stirring and heating liquids in beakers or flasks.',
                     completeDetails: {
                         image:'/images/magnetic-stirrer.jpg',
                         keyFeatures: [
@@ -920,7 +915,7 @@ function ProductsPage(){
                 {
                     img1: '/images/autoclave.webp',
                     title: 'Autoclave',
-                    description: '',
+                    description: 'For sterilization of culture media, glassware, and instruments using steam under pressure.',
                     completeDetails: {
                         image:'/images/autoclave.webp',
                         keyFeatures: [
@@ -935,7 +930,7 @@ function ProductsPage(){
                 {
                     img1: '/images/LAF-lab.png',
                     title: 'LAF for Lab',
-                    description: '',
+                    description: 'Particle-free airflow protects sensitive test procedures.',
                     completeDetails: {
                         image:'/images/LAF-lab.png',
                         keyFeatures: [
@@ -957,7 +952,7 @@ function ProductsPage(){
                 {
                     img1: '/images/air-handling-units-1.jpg',
                     title: 'AHUs (Air Handling Units)',
-                    description: '',
+                    description: 'Integrated systems to condition and circulate air within clean zones.',
                     completeDetails: {
                         image:'/images/air-handling-units-1.jpg',
                         keyFeatures: [
@@ -971,7 +966,7 @@ function ProductsPage(){
                 {
                     img1: '/images/chiller1.jpg',
                     title: 'Chillers',
-                    description: '',
+                    description: 'Commercial chillers for process cooling and HVAC support.',
                     completeDetails: {
                         image:'/images/chiller1.jpg',
                         keyFeatures: [
@@ -985,7 +980,7 @@ function ProductsPage(){
                 {
                     img1: '/images/dehumidifiers.jpg',
                     title: 'Dehumidifiers / Humidifiers',
-                    description: '',
+                    description: 'Adjusts and maintains optimal humidity levels in cleanrooms.',
                     completeDetails: {
                         image:'/images/dehumidifiers.jpg',
                         keyFeatures: [
@@ -999,7 +994,7 @@ function ProductsPage(){
                 {
                     img1: '/images/air-filters.jpg',
                     title: 'Air Filters (HEPA, ULPA)',
-                    description: '',
+                    description: 'High-efficiency particulate air filters for contaminant removal.',
                     completeDetails: {
                         image:'/images/air-filters.jpg',
                         keyFeatures: [
@@ -1013,7 +1008,7 @@ function ProductsPage(){
                 {
                     img1: 'images/ducting-sys1.jpg',
                     title: 'Ducting Systems (GI, SS, Fabric)',
-                    description: '',
+                    description: 'Air distribution networks for cleanroom HVAC.',
                     completeDetails: {
                         image:'/images/ducting-sys1.jpg',
                         keyFeatures: [
@@ -1027,7 +1022,7 @@ function ProductsPage(){
                 {
                     img1: '/images/Fan-Coil-Unit.png',
                     title: 'FCUs (Fan Coil Units)',
-                    description: '',
+                    description: 'Efficient localized temperature control for labs and small spaces.',
                     completeDetails: {
                         image:'/images/Fan-Coil-Unit.png',
                         keyFeatures: [
@@ -1041,7 +1036,7 @@ function ProductsPage(){
                 {
                     img1: '/images/VAV.jpg',
                     title: 'VAV/VRV Systems',
-                    description: '',
+                    description: 'Zone-wise airflow and temperature control for non-sterile areas.',
                     completeDetails: {
                         image:'/images/VAV.jpg',
                         keyFeatures: [
@@ -1055,7 +1050,7 @@ function ProductsPage(){
                 {
                     img1: '/images/air-curtains.jpg',
                     title: 'Air Curtains & Pressure Dampers',
-                    description: '',
+                    description: 'Barriers to control air exchange and maintain pressure differentials.',
                     completeDetails: {
                         image:'/images/air-curtains.jpg',
                         keyFeatures: [
@@ -1077,7 +1072,7 @@ function ProductsPage(){
                 {
                     img1: '/images/compressed-air-sys.jpg',
                     title: 'Compressed Air Systems',
-                    description: '',
+                    description: 'Clean, oil-free compressed air for pneumatic equipment and processes.',
                     completeDetails: {
                         image:'/images/compressed-air-sys.jpg',
                         keyFeatures: [
@@ -1091,7 +1086,7 @@ function ProductsPage(){
                 {
                     img1: '/images/steam-generation.jpg',
                     title: 'Steam Generation',
-                    description: '',
+                    description: 'Pharma-grade steam for sterilization, CIP/SIP, and process heating.',
                     completeDetails: {
                         image:'/images/steam-generation.jpg',
                         keyFeatures: [
@@ -1105,7 +1100,7 @@ function ProductsPage(){
                 {
                     img1: '/images/water-sys.jpg',
                     title: 'Water Systems',
-                    description: '',
+                    description: 'Purification systems for PW, WFI, DM water used in pharma processes.',
                     completeDetails: {
                         image:'/images/water-sys.jpg',
                         keyFeatures: [
@@ -1119,7 +1114,7 @@ function ProductsPage(){
                 {
                     img1: '/images/vaccum-sys.jpg',
                     title: 'Vacuum Systems',
-                    description: '',
+                    description: 'Waste and process vacuum for tablet dedusting, filtration, and capsule filling.',
                     completeDetails: {
                         image:'/images/vaccum-sys.jpg',
                         keyFeatures: [
@@ -1133,7 +1128,7 @@ function ProductsPage(){
                 {
                     img1: '/images/nitrogen-genration.jpg',
                     title: 'Nitrogen Generation',
-                    description: '',
+                    description: 'On-site nitrogen production for inerting, packaging, and drying applications.',
                     completeDetails: {
                         image:'/images/nitrogen-genration.jpg',
                         keyFeatures: [
@@ -1169,7 +1164,7 @@ function ProductsPage(){
                 {
                     img1: '/images/concept-design.jpg',
                     title: 'Concept Design',
-                    description: '',
+                    description: 'Master planning and feasibility analysis for pharma facilities.',
                     completeDetails: {
                         image:'/images/concept-design.jpg',
                         keyFeatures: [
@@ -1183,7 +1178,7 @@ function ProductsPage(){
                 {
                     img1: '/images/layout-planning.jpg',
                     title: 'Layout Planning',
-                    description: '',
+                    description: 'Contamination-control focused cleanroom and process layout design.',
                     completeDetails: {
                         image:'/images/layout-planning.jpg',
                         keyFeatures: [
@@ -1197,7 +1192,7 @@ function ProductsPage(){
                 {
                     img1: '/images/detailed-eng.jpg',
                     title: 'Detailed Engineering',
-                    description: '',
+                    description: 'Comprehensive engineering drawings and specifications for pharma facilities.',
                     completeDetails: {
                         image:'/images/detailed-eng.jpg',
                         keyFeatures: [
@@ -1211,7 +1206,7 @@ function ProductsPage(){
                 {
                     img1: '/images/RCS.jpg',
                     title: 'Regulatory Compliance Support',
-                    description: '',
+                    description: 'End-to-end support for regulatory submissions and inspections.',
                     completeDetails: {
                         image:'/images/RCS.jpg',
                         keyFeatures: [

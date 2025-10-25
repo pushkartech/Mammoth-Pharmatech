@@ -4,6 +4,10 @@
             align-items: center;
         }
 
+        #about {
+            scroll-margin-top: calc(var(--navbar-height) + 15px);
+        }
+
         .about-section {
             margin-bottom: -50px;
         }

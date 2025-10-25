@@ -79,7 +79,6 @@
   color: var(--primary);
   margin: 20px 0 10px;
   position: relative;
-  padding-left: 15px;
 }
 
 .section-title::before {
