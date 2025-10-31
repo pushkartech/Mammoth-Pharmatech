@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import '../styles/ContactSection.css'; // keep your styles
 // Note: your original file uploaded was ContactSection.jsx. This replaces it with a working one. :contentReference[oaicite:2]{index=2}
-
+const backend_url = "https://server-mammoth.onrender.com";
 function ContactSection() {
   const [form, setForm] = useState({
     name: "",
@@ -40,7 +40,7 @@ function ContactSection() {
     setStatus({ loading: true, success: null, message: "Sending..." });
 
     try {
-      const resp = await fetch("/api/contact", {
+      const resp = await fetch(`${backend_url}/api/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form)
