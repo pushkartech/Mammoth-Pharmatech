@@ -24,19 +24,19 @@ function Footer() {
                             <div className="footer-column">
                                 <h3>Contact Info</h3>
                                 <div className="footer-contact-item">
-                                    <i className="fas fa-phone footer-contact-icon"></i>
-                                    <span>+91 98765 43210</span>
+                                    <i className="fas fa-brands fa-whatsapp footer-contact-icon"></i>
+                                    <span>+91 90293 93778</span>
                                 </div>
                                 <div className="footer-contact-item">
                                     <i className="fas fa-envelope footer-contact-icon"></i>
-                                    <span>info@mammothpharma.com</span>
+                                    <span>contact@mammothpharma.com</span>
                                 </div>
                                 <div className="footer-contact-item">
                                     <i className="fas fa-map-marker-alt footer-contact-icon"></i>
-                                    <span>Charni Road, South Mumbai, India - 400002</span>
+                                    <span> South Mumbai, India - 400002</span>
                                 </div>
                                 <div className="footer-contact-item">
-                                    <a href="https://www.linkedin.com/company/mammoth-pharmatech" className=""><i className="fab fa-linkedin-in footer-contact-icon"></i></a><span>LinkedIn</span>
+                                    <a href="https://www.linkedin.com/company/mammoth-pharmatech" className=""><i className="fab fa-linkedin-in footer-contact-icon"></i><span className="footer-social">LinkedIn</span></a>
                                     {/* <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
                                     <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a> */}
                                 </div>

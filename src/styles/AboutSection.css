@@ -8,9 +8,6 @@
             scroll-margin-top: calc(var(--navbar-height) + 15px);
         }
 
-        .about-section {
-            margin-bottom: -50px;
-        }
         .about-text {
             max-width: 800px;
             text-align: center;

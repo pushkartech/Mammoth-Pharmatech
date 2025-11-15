@@ -116,6 +116,7 @@ function ContactSection() {
                 <option>Utility & HVAC Solutions</option>
                 <option>Laboratory Equipment</option>
                 <option>Pharma Facility Design Consultancy</option>
+                <option>Other (please mention in your message)</option>
               </select>
             </div>
 

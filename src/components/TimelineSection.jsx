@@ -4,10 +4,10 @@ import TimelineItem from "./Cards/TimelineItem";
 
 function TimelineSection() {
   const timelineData = [
-    {
-      year: "2021",
-      desc: "Company founded with a vision to revolutionize pharmaceutical infrastructure solutions.",
-    },
+    // {
+    //   year: "2021",
+    //   desc: "Company founded with a vision to revolutionize pharmaceutical infrastructure solutions.",
+    // },
     {
       year: "2022",
       desc: "Established strategic partnerships with international leaders in pharmaceutical technology.",

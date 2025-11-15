@@ -48,7 +48,7 @@ function Navbar() {
           <li><Link to="/" onClick={closeMenu}>Home</Link></li>
           <li><Link to="/#about" onClick={closeMenu}>About</Link></li>
           <li><Link to="/productsPage" onClick={closeMenu}>Products</Link></li>
-          <li><Link to="/#principles" onClick={closeMenu}>Principles</Link></li>
+          {/* <li><Link to="/#principles" onClick={closeMenu}>Principles</Link></li> */}
           <li className="desktop-contact">
             <Link to="/#contact" className="nav-contact-btn" onClick={closeMenu}>Contact Us</Link>
           </li>

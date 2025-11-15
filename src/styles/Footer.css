@@ -65,3 +65,8 @@
             border-top: 1px solid #444;
             color: #ccc;
         }
+
+        .footer-social {
+            color: #ccc;
+            text-decoration: none;
+        } 

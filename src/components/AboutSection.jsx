@@ -15,7 +15,7 @@ function AboutSection() {
                                     spans across pharmaceutical manufacturing, healthcare, and cosmetic production, with strategic partnerships with global leaders.
                                 </p>
                             </div>
-                            <div className="about-features">
+                            {/* <div className="about-features">
                                 <div className="feature-card">
                                     <div className="feature-icon">
                                         <i className="fas fa-industry"></i>
@@ -30,7 +30,7 @@ function AboutSection() {
                                     <h3 className="feature-title">Global Perspective</h3>
                                     <p>Strategic partnerships with Delta 2000 and PBL (Italy) to deliver world-class solutions.</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

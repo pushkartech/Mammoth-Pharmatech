@@ -1,6 +1,4 @@
-:root {
-  --navbar-height: 120px;
-}
+
 
 .navbar {
   position: fixed;
@@ -197,9 +195,9 @@
 }
 
 .main-content {
-  padding-top: var(--navbar-height);
+  padding-top: 60px;
 }
 
 @media (max-width:768px) {
-  .main-content { padding-top: 60px; }
+  .main-content { padding-top: 30px; }
 }
