@@ -1,5 +1,7 @@
 import React from "react";
 import '../styles/ProductsSection.css';
+import { ProductCard } from "./Cards/ProductCard";
+
 function ProductsSection() {
             const products = [
                 {
@@ -39,21 +41,12 @@ function ProductsSection() {
                     <div className="container">
                         <h2 className="section-title">Our Product Offerings</h2>
                         <div className="products-grid">
-                            {products.map((product, index) => (
-                                <div key={index} className="product-card">
-                                    <div className="product-content">
-                                        <div className="product-icon">
-                                            <i className={product.icon}></i>
-                                        </div>
-                                        <h3 className="product-title">{product.title}</h3>
-                                        <p className="product-desc">{product.desc}</p>
-                                        <a href="/productsPage" className="btn btn-secondary">Learn More →</a>
-                                    </div>
-                                </div>
+                            {products.map((product, idx) => (
+                                <ProductCard index={idx} icon={product.icon} title={product.title} desc={product.desc} />
                             ))}
                         </div>
                     </div>
                 </section>
             );
         }
-export default ProductsSection
+export default ProductsSection;
